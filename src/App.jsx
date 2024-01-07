@@ -21,6 +21,7 @@ function App() {
     isFetching,
     error,
     fetchedData: userPlaces,
+    setFetchedData: setUserPlaces,
   } = useFetch(fetchUserPlaces, []);
 
   function handleStartRemovePlace(place) {
